@@ -16,7 +16,7 @@ namespace System.Reactive
         private IndexedItem[] _items;
         private int _size;
 
-        const in DEFAULT_CAPACITY = 16;
+        const int DEFAULT_CAPACITY = 16;
         
         public PriorityQueue()
             : this(DEFAULT_CAPACITY)
